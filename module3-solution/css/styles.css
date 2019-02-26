@@ -1,0 +1,93 @@
+body{
+	background-color: white;
+}
+#header-nav{
+	background-color: grey;
+	border: 1px solid black;
+	border-radius: 0;
+}
+.navbar-brand p{
+	color: black;
+}
+.navdesing{
+	background-color: white;
+	text-align: center;
+	border: 1px solid black;
+}
+#nav-list{
+	margin: 0px;
+}
+
+#lb1{
+	margin:0px;
+	box-sizing: border-box;
+	float: left;
+	border: 5px solid white;
+}
+#lb2{
+	margin:0px;
+	box-sizing: border-box;
+	float: left;
+	border: 5px solid white;
+}
+#lb3{
+	margin:0px;
+	box-sizing: border-box;
+	float: left;
+	border: 5px solid white;
+}
+#box{
+	box-sizing:border-box; 
+	background-color: grey;
+	border: 1px solid black;
+	
+}
+#title1{
+	float: right;
+	box-sizing: content-box;
+	text-align: right;
+	background-color: red;
+	border: 1px solid black;
+	margin: 0px;
+}
+#title2{
+	float: right;
+	box-sizing: content-box;
+	text-align: right;
+	background-color: yellow;
+	border: 1px solid black;
+	margin: 0px;
+}
+#title3{
+	float: right;
+	box-sizing: content-box;
+	text-align: right;
+	background-color: green;
+	border: 1px solid black;
+	margin: 0px;
+}
+#content{
+	clear:right; 
+}
+@media(min-width: 992px){
+	#lb1{
+		width: 33%;
+	}
+	#lb2{
+		width: 33%;
+	}
+	#lb3{
+		width: 33%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	#lb1{
+		width: 50%;
+	}
+	#lb2{
+		width: 50%;
+	}
+}
+h1{
+	text-align: center;
+}
